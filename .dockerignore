@@ -1,0 +1,28 @@
+# Ignora ambientes virtuais Python
+venv
+env
+.venv
+
+# Ignora caches de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignora banco de dados local e arquivos de ambiente
+*.db
+*.sqlite3
+*.log
+*.env
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora pastas e arquivos do editor
+.vscode
+.idea
+*.swp
+
+# Ignora arquivos de build do Docker
+Dockerfile~
+docker-compose.yml~
